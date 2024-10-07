@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 100px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #fff;
+}
+
+#query {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d19405;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fadc7a;
+}
+
+#searchResults {
+    visibility: hidden; /* Hide the divs */
+    margin-top: 20px;
+    color: #383838;
+    text-align: left;
+
+}
+
+#searchResults a {
+    color: #d19405;                  /* Change the link color */
+    text-decoration: none;            /* Remove underline from links */
+}
+
+#searchResults a:hover {
+    text-decoration: underline;       /* Add underline on hover for links */
+}
+
+#time {
+    padding: 20px;
+    color: #383838;
+    visibility: hidden; /* Hide the divs */
+}
+
